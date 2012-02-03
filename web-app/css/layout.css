@@ -1,0 +1,31 @@
+#container {
+	width: 860px; 
+	height: 600px
+}
+
+#header {
+	height: 95px
+}
+
+#context {
+	height: 50px;
+	width: 1026px
+}
+
+#menu {
+	float: left; 
+	width: 280px; 
+	height: 100%
+}
+
+#content {
+	float: left; 
+	width: 760px; 
+	height: 100%
+}
+
+#footer {
+	clear: both; 
+	height: 30px
+}
+

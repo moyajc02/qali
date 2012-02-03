@@ -1,0 +1,416 @@
+body {
+	background-image:url(../images/background2.jpg);
+	background-attachment:fixed;
+	background-repeat:repeat;
+	background-color: #fbfbfb;
+	color: #3d3d3d;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	margin: 0;
+
+}
+
+.tabla_p{
+	background-image:url(../images/principal.jpg);
+	background-repeat:no-repeat;
+}
+
+.q_login
+{
+	text-align: right;
+}
+
+.celda {
+	color: #000000;
+		font-size: 11px;
+}
+
+a {
+	color: #333333;
+	font-size: 9pt;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #df5e26;
+	font-size: 9pt;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #df5e26;
+	font-size: 9pt;
+	text-decoration: none;
+}
+a img {
+
+border: none;
+
+}
+
+img {
+
+border: none;
+
+}
+
+.barraMenu {
+/* 	background-image:url(../images/pricipal.jpg); */
+/* 	background-color:#717171; */
+	color: #FFFFFF;
+	font-size: 12pt;
+	font-variant: normal;
+	font-weight: normal;
+	text-align: right;
+/* 	text-transform: uppercase; */
+	height:50px;
+	vertical-align:midle;
+	border:none;
+}
+
+.pie_pagina {
+/* 	background-image:url(../images/pie_p.jpg); */
+/* 	background-color:#717171; */
+	color: #FFFFFF;
+	font-size: 10pt;
+	font-variant: normal;
+	text-align: center;
+/* 	text-transform: uppercase; */
+	height:20px;
+	vertical-align:midle;
+	border:none;
+}
+
+.nombreSistema {
+	background-image:url(../images/fondo_menu.jpg);
+	background-color:#717171;
+	color: #FFFFFF;
+	font-size: 12pt;
+	font-variant: normal;
+	font-weight: normal;
+	text-align: center;
+/* 	text-transform: uppercase; */
+	height:22px;
+	vertical-align:middle;
+	border:none;
+}
+
+.bodytext {
+	background-color: #fffcf9;
+	color: #26354A;
+	cursor: inherit;
+	font-size: 9pt;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 22px;
+}
+
+.titulo {
+	color:#929292;
+	font-size:14pt;
+	font-weight:normal;
+	line-height:1em;
+	margin-bottom:0.2em;
+	margin-top:12;
+/* 	text-transform:uppercase; */
+	text-align:center;
+}
+
+.subHeader {
+	background-color: #E9E9EB;
+	color: #2D374D;
+	font-size: 10pt;
+	font-weight: bold;
+	line-height: 20px;
+}
+.navegacion {
+	background-color: #b2b2b2;
+	color: #FFFFFF;
+	font-family: Calibri, Arial, serif, sans-serif;
+	font-size: 10pt;
+}
+
+.calendarText {
+	background-color: #F1A142;
+	background-position: center;
+	border-bottom-style: groove;
+	color: #FFFFFF;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+.usuario {
+	background-color: #ffffff;
+	border-bottom-style: none;
+	color: #666666;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+}
+
+.table {
+	background-color: #f5cebd;
+	border-bottom-style: groove;
+	color: #4e4e4e;
+	font-size: 10pt;
+}
+
+
+
+.error {
+	color: #FF6600;
+	font-size: 9pt;
+}
+.tablaprincipal {
+	padding-top:64px;
+	}
+
+
+/* Estilos para los tipos de mensaje */
+
+.mensaje-fatal{
+    color: Red;
+}
+
+.mensaje-error{
+    color: #FF8000;
+}
+
+.mensaje-precaucion{
+	color: #40CD10
+}
+
+.mensaje-informacion{
+    color: blue;
+}
+
+
+
+.tool-tips-azules{
+background-color:#C4F0FD;
+border-color: blue;
+color: blue
+}
+
+.centrarColumnas{
+	text-align: center;
+}
+
+.justificar{
+text-align: left;
+font-weight: bold;
+}
+
+
+
+.tablaCatalogo table {
+    width: 100%;
+    border-collapse: collapse;
+   
+}
+
+.tablaCatalogo th {
+	border: 1;
+}
+
+.tablaCatalogo th, .tablaCatalogo td {
+    font: 11px Verdana,Arial,Verdana,sans-serif;
+    line-height: 12px;
+    padding: 5px 6px;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #ddd;
+}
+.tablaCatalogo th {
+    background-color: #EDF1F4;
+    color: #666;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 17px;
+    padding: 2px 6px;
+}
+
+#wrapperTable div{
+	 align: center;
+}
+
+.wrapperCatalogo {
+	align: center;
+}
+
+.tablaCatalogo{
+	width: 100%
+}
+
+
+.paginateButtonsCatalogo {
+    border: 1px solid #EDF1F4;
+    border-top: 0;
+    color: #666;
+    font-size: 10px;
+    overflow: hidden;
+    padding: 10px 3px;
+}
+.paginateButtonsCatalogo a {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-color: #ccc #aaa #aaa #ccc;
+    color: #666;
+    margin: 0 3px;
+    padding: 2px 6px;
+}
+.paginateButtonsCatalogo span {
+    padding: 2px 3px;
+}
+
+.grupoCatalogo {
+	width: 100%
+}
+
+/* Estilo para los label */
+label {
+	font: 11px verdana, arial, helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.requerido {
+	font: 11px verdana, arial, helvetica, sans-serif;
+    font-weight: bold;
+	color: red;
+}
+
+
+.message {
+    background: #f3f8fc url(../images/skin/information.png) 8px 50% no-repeat;
+    border: 1px solid #b2d1ff;
+    color: #006dba;
+    margin: 10px 0 5px 0;
+    padding: 5px 5px 5px 30px
+}
+
+
+
+td.errors select {
+    border: 1px solid red;
+}
+td.errors input {
+    border: 1px solid red;
+}
+td.errors textarea {
+    border: 1px solid red;
+}
+
+.botonLink{
+	border:0px;
+	background:none;
+}
+
+legend {
+	color:#DF5E26;
+}
+
+
+
+.panel-body{
+	padding: 10px 10px 10px 14px;
+	border: 1px solid #ACBECE;
+	margin: 5px 5px 30px 5px;	
+}
+
+.cursor-mano{
+	cursor: hand;
+}
+
+td center img{
+	cursor: hand;
+}
+
+.titulo-panel{
+	color:#DF5E26;
+	margin:0px;
+	padding:0px;
+	text-align: center;
+}
+
+.panel-body{
+	padding: 10px 10px 10px 14px;
+	border: 0px solid #ACBECE;
+	margin: 0px 0px 0px 0px;	
+}
+
+.login {
+	width: 500px;
+	margin:0 auto 0 auto;
+}
+
+#tableLogin {
+	height: 180px;
+}
+
+.inicioContenido {
+	width: 500px;
+	margin:0 auto 0 auto;	
+}
+
+.sinBorde {
+	border:0;
+	border: none;
+}
+
+.catalogosBody {
+	width: 750px;
+}
+
+.tablaSinBorde th{
+	rules: all;
+	border: none;	
+}
+
+.resumen input {
+    background: transparent url(../images/skin/database_delete.png) 5px 50% no-repeat;
+    padding-left: 28px;
+}
+
+.menu_principal {
+	background-color: #ffffff;
+	color: #fff7ec;
+	font-size: 9pt;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 1em;
+}
+  
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.fixed {
+	background-color: #FE9A2E;
+}
+
+.controller A:link {
+ COLOR: white; /*The color of the link*/
+}
+
+.controller A:visited {
+ COLOR: white; /*The color of the visited link*/
+}
+
+.controller A:hover {
+ COLOR: white; /*The color of the mouseover or 'hover' link*/
+}
+
+
+#ejemplo{
+	background-color: #FFFFFF;
+}
+
+.yui-skin-sam
+{
+background-color:white; 
+}
