@@ -11,24 +11,17 @@
 <body class="yui-skin-sam" id = "superBody">
 <div style="height: 0px;"></div>
 <table align="center" cellspacing="0" cellpadding="0" width="1005"
-	bgcolor="#FFFFFF" id="tablaprincipal" class="tabla_p2";>
+	bgcolor="#FFFFFF" id="tablaprincipal" class="tabla_p";>
 	<tr>
 		<td colspan="2" class="barraMenu">		
-		<br>
-		<label class="controller"> <%--para obtener propiedades de la classe controller --%>		
-			<g:link controller="somos">¿Quienes somos?</g:link>
-			--
-			<g:link controller="Qalifica_busqueda">¿Buscas servicios?</g:link>
+		<label class="controller"> <%--para obtener propiedades de la classe controller --%>
+			 <br>
+			<g:link controller="Qalific_solicitudCuenta">Login</g:link>
+			<p style="white-space: pre";><%--con esta etiqueta el texto siguiente toma los caracteres tal cual con espacios incluidos--%>
+			<g:link controller="somos">¿Quienes somos?</g:link>  <g:link controller="Qalifica_busqueda">¿Buscas servicios?</g:link>   <g:link controller="index.gsp">Inicio</g:link>  </p>
 		</label>				
 		</td>
 	</tr>
-	<tr>
-		<td colspan="1" >
-		<div class="q_login"><g:link controller="Qalific_solicitudCuenta">Login</g:link></div>
-	
-		</td>
-	</tr>
-	
 	<tr >
 	
 <%--		 **************** PARA QUITAR MENU cerrar comentario --> 
@@ -108,7 +101,7 @@
     		</div>
 		</td>	
 <%--		--%>
-		<td width="824px">
+		<td width="825px">
 			<div class = "panel-body" align="center" >
 				<g:layoutBody />
 			</div>
@@ -117,6 +110,7 @@
 	<tr id="footer">
 		<td height="2" colspan="1" align="center" class="pie_pagina">
 		<label class="controller"> <%--para obtener propiedades de la classe controller --%>
+		<br>
 		<g:link controller="contacto">Contactanos</g:link>
 		/
 		<g:link controller="privacidad">Privacidad</g:link>

@@ -6,12 +6,11 @@
         <meta name="layout" content="main" />
         
     </head>
-    <body ;>
- 	 
-    Los servicios + calificados...
+    <body>
     	<div class="div_serv"></div>
     	<div style="text-align: justify";>  	
-    	<form> 	
+    	<form> 
+    	<fieldset style="height:480px;width:978px;" class="field_inte">	
     		<fieldset style="width: 318px"; class="field_inte">
 	   		<div class="frames">
 			<label>1</label>
@@ -224,8 +223,8 @@
 	    	<p>  3	</p>
 	    	</div>
 	    	</fieldset>	    	
-	    	<br>
-	    	<br>
+	    
+	    	</fieldset>
         </form>
         </div>
     </body>
