@@ -10,7 +10,17 @@ body {
 
 }
 
+.boton1{background-image:url(../images/principal.jpg);}
+.boton2{background-image:url(../images/template.jpg);}
+.boton1:hover{background-image:url(../images/principal.jpg);}
+
 .tabla_p{
+	background-image:url(../images/template.jpg);
+/* 	principal.jpg); */
+	background-repeat:no-repeat;
+}
+
+.tabla_p2{
 	background-image:url(../images/principal.jpg);
 	background-repeat:no-repeat;
 }
@@ -165,6 +175,8 @@ border: none;
 }
 .tablaprincipal {
 	padding-top:64px;
+	
+	
 	}
 
 
